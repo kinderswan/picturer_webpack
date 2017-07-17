@@ -1,0 +1,82 @@
+div.image {
+    display: inline;
+    position: relative;
+}
+
+.buttons {
+  padding: 0px 0px 48px 0px;
+}
+
+.buttons button {
+  margin: 8px 0px 8px 0px;
+}
+
+.like {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url(like.svg);
+    background-size: 48px 48px;
+    position: absolute;
+    top: -40px;
+    right: 16px;
+}
+
+.like.pressed {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background: url(likepressed.svg);
+    background-size: 48px 48px;
+    position: absolute;
+    top: -40px;
+    right: 16px;
+}
+
+#loadMoreImages.hidden {
+    display: none;
+}
+
+
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 96px;
+  padding: 48px;
+  text-align: center;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.2), 0 8px 8px 0 rgba(0, 0, 0, 0.24);
+}
+input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 16px;
+  padding: 16px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 100%;
+  border: 0;
+  padding: 16px;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover,button:active,button:focus {
+  background: #43A047;
+}
